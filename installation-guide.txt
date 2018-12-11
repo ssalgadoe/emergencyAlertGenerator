@@ -1,0 +1,28 @@
+Installation guide
+
+Postgres
+
+installation instruction:
+
+https://www.howtoforge.com/tutorial/ubuntu-postgresql-installation/
+
+
+sudo apt-get -y install postgresql postgresql-contrib phppgadmin
+
+configuration
+sudo su - postgres
+
+psql
+
+
+* to install pgadmin3
+
+sudo apt-get install pgadmin3
+
+run pgadmin3
+
+* to install  psycopg2
+
+conda install psycopg2
+
+beautifulsoup no need to install

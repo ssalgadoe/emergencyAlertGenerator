@@ -1,0 +1,28 @@
+Installation guide v1.0  (tested with Ubuntu)
+
+1. Postgres installation
+
+	installation instruction:
+
+	https://www.howtoforge.com/tutorial/ubuntu-postgresql-installation/
+
+
+	sudo apt-get -y install postgresql postgresql-contrib phppgadmin
+
+	configuration
+		sudo su - postgres
+		psql
+		\password postgres
+		ENTER YOUR PASSWORD
+
+2. to install pgadmin3
+
+	sudo apt-get install pgadmin3
+	run pgadmin3
+
+3. to install  psycopg2 (Postgres connector for Python)
+
+	conda install psycopg2 (had to use Anaconda, may be apt-get also work)
+
+4. BeatifulSoup (HTML Parser)
+	beautifulsoup no need to be installed in Ubuntu (if Python is installed using Anaconda
